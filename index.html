@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/assets/foundation.css" />
+
+  <title>RxJS</title>
+</head>
+<body>
+
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x">
+      <div class="cell small-12">
+        <h1>RxJS Baabyyy</h1>
+        <hr>
+      </div>
+
+      <!-- Mouse Move -->
+      <div class="cell small-12">
+        <h3>Mouse Move</h3>
+        <div class="card blue-grey white-text" id="mousemove-card">
+          <div class="card-content" id="mousemove-output"><p>mouse over here...</p></div>
+        </div>
+      </div>
+
+      <!-- Chuck Norris -->
+      <div class="cell small-12">
+        <h3>Chuck Norris</h3>
+        <button id="chuck-button" class="button">chuck me</button>
+        <div class="card blue-grey white-text">
+          <div class="card-content" id="chuck-output"><p>Give me Chuck or give me death (same thing?)</p></div>
+        </div>
+      </div>
+
+      <!-- Double Click -->
+      <div class="cell small-12">
+        <h3>Dubbel™ Click</h3>
+        <button id="doubleclick-button" class="button">double click</button>
+        <div class="card blue-grey white-text">
+          <div class="card-content" id="doubleclick-output"><h5>Fart in the wind...</h5></div>
+        </div>
+      </div>
+
+      <!-- Merge - Timers -->
+      <div class="cell small-12">
+        <h3>Merge() - Timers</h3>
+        <button id="merge-button" class="button">merge</button>
+        <div class="card blue-grey white-text">
+          <div class="card-content" id="merge-output"></div>
+        </div>
+      </div>
+
+      <!-- CombineLatest - Timers -->
+      <div class="cell small-12">
+        <h3>CombineLatest() - Timers</h3>
+        <button id="combinelatest-button" class="button">combine latest</button>
+        <div class="card blue-grey white-text">
+          <div class="card-content" id="combinelatest-output"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="module" src="/assets/app.js"></script>
+
+</body>
+</html>
