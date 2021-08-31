@@ -26,9 +26,9 @@ $> npm run dev
 
 Here we're capturing the `mousemove` event. When we run it through a `pipe()` we can easily run operators like `throttleTime()`, `debounceTime()`, `filter()`, etc. Here we're also `tap()`ing into the pipe so that we can debug/console.log the data as it flows through the pipe. Then we `map()` the output to be returned and ultimately written to the DOM.
 
-### Church Norris
+### Chuck Norris
 
-In this example, we're making API called to a Church Norris joke generator. We're using the RxJS `ajax` utility and we're running it inside the `switchMap()` operator, which allows us to keep only the latest request from a series of events that are active/haven't yet emitted; in this case, this also cancels any previous API calls (can be seen in the network tab) that have not returned/emitted yet).
+In this example, we're making API called to a Chuck Norris joke generator. We're using the RxJS `ajax` utility and we're running it inside the `switchMap()` operator, which allows us to keep only the latest request from a series of events that are active/haven't yet emitted; in this case, this also cancels any previous API calls (can be seen in the network tab) that have not returned/emitted yet).
 
 ### Double Click
 
